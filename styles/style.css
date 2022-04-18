@@ -85,8 +85,7 @@ h1 {
 }
 
 p {
-  padding-top: 15px;
-  padding-right:5vw;
+  padding: 10px 0px;
 }
 
 footer > h3 {
@@ -129,10 +128,8 @@ footer > h4 {
   height:40px;
 }
 
-#download > img {
+#download > a {
   padding: 20px 10px 0 10px;
-  height: 3em;
-  width: 10em;
 }
 
 
@@ -188,15 +185,12 @@ h1 {
 }
 
 #presentation {
-  background-size: 50vw 90vh;
+  background-size: 60vw 90vh;
   margin-left:30px;
-  width: 50vw;
 }
 
 #instagram-logo-login {
-  margin:30px 50px 0px 30px;
+  margin-left:30px;
 }
-
-
 	
 }
