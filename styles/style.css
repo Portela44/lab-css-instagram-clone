@@ -61,7 +61,7 @@ header {
 #presentation {
   background-image: url(../images/frame.png);
   background-repeat: no-repeat;
-  background-size: 70vw 40vh;
+  background-size: 70vw 90vh;
   border-radius: 5px;
   padding:25px;
   
@@ -86,6 +86,7 @@ h1 {
 
 p {
   padding-top: 15px;
+  padding-right:5vw;
 }
 
 footer > h3 {
@@ -111,6 +112,7 @@ footer > h4 {
 #phones {
   height:auto;
   width: auto;
+  max-width: 250px;
 }
 
 #brand {
@@ -141,6 +143,7 @@ footer > h4 {
   flex-direction: column;
   justify-content: center;
   margin: 10% 15% 5% 15%;
+  align-items:center;
 }
 
 #instagram-logo-login {
@@ -164,4 +167,36 @@ footer {
   display:flex;
   flex-wrap:wrap;
   justify-content: center;
+}
+
+/* media queries */
+@media (min-width: 768px) {
+#main {
+  display:flex;
+  flex-direction: row;
+  align-items:center;
+  margin: 10% 7% 5% 7%;
+}
+  
+#brand {
+  height:auto;
+  width: 25vw;
+}
+  
+h1 {
+  font-size:3vw;
+}
+
+#presentation {
+  background-size: 50vw 90vh;
+  margin-left:30px;
+  width: 50vw;
+}
+
+#instagram-logo-login {
+  margin:30px 50px 0px 30px;
+}
+
+
+	
 }
