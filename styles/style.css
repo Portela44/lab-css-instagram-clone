@@ -57,6 +57,16 @@ header {
   background-color: #1c5380;
   z-index:-1;
 }
+
+#presentation {
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: 70vw 40vh;
+  border-radius: 5px;
+  padding:25px;
+  
+}
+
 /*general font adjustments*/
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -78,8 +88,26 @@ p {
   padding-top: 15px;
 }
 
+footer > h3 {
+  font-weight: 700;
+  font-size:0.7em;
+  color:#06365f;
+  padding: 0 10px;
+  margin-top:0px;
+  margin-bottom:50px;
+}
 
-/*picture/button and logo sizes*/
+footer > h4 {
+  font-weight: 700;
+  font-size:0.7em;
+  color:lightgray;
+  padding: 0 10px;
+  margin-top:0px;
+  margin-bottom:50px;
+}
+
+
+/*picture/button and logo setup*/
 #phones {
   height:auto;
   width: auto;
@@ -90,21 +118,50 @@ p {
   width: 40vw;
 }
 
+#login {
+  background: linear-gradient(to bottom, lightblue, #06365f);
+  border-color:#06365f;
+  color:white;
+  border-width: 1px;
+  padding-top:px;
+  height:40px;
+}
+
+#download > img {
+  padding: 20px 10px 0 10px;
+  height: 3em;
+  width: 10em;
+}
+
+
 /* section positioning */
 
 #main {
   display:flex;
   flex-direction: column;
   justify-content: center;
-  margin: 10% 15% 5em 15%;
+  margin: 10% 15% 5% 15%;
 }
 
 #instagram-logo-login {
   display:flex;
   justify-content:space-between;
   margin:1.5em 0em;
+  align-items:center;
 }
 
-#download {
-  padding-top:1.5em;
+#login {
+  display:flex;
+  align-items:center;
+  border-radius:5px;
+}
+
+#login-img {
+  padding-right:5px;
+}
+
+footer {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
 }
